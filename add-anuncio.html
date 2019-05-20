@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PeiBufo - Cadastro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="cadastro-anunciante.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <!---sm|-md|-lg|-xl-->
+    <div class="conteiner">
+        <nav class="navbar navbar-expand-xl navbar-dark" >
+            <a class="navbar-brand" href="#"><img src="./img/logo 1.png" alt="" height="60px" width="120px" ></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"> Início <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Comes e bebes
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Bolos</a>
+                            <a class="dropdown-item" href="#">Bebidas</a>
+                            <a class="dropdown-item" href="#">Buffet</a>
+                            <a class="dropdown-item" href="#">Doces</a>
+                            <a class="dropdown-item" href="#">Salgado</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Decoração
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Ambiente</a>
+                            <a class="dropdown-item" href="#">Artesanato</a>
+                            <a class="dropdown-item" href="#">Mesas</a>
+                            <a class="dropdown-item" href="#">Papelaria</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Atrações
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Entretenimento</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Musical</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Brinquedos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Cama Elástica ou Pula pula</a>
+                            <a class="dropdown-item" href="#">Carro Elétrico</a>
+                            <a class="dropdown-item" href="#">Castelo</a>
+                            <a class="dropdown-item" href="#">Piscina de bolinhas</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Ambientes
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Auditório</a>
+                            <a class="dropdown-item" href="#">Buffet</a>
+                            <a class="dropdown-item" href="#">Casas</a>
+                            <a class="dropdown-item" href="#">Clubes</a>
+                            <a class="dropdown-item" href="#">Decks</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Audio visual
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Fotógrafos</a>
+                            <a class="dropdown-item" href="#">Vídeos</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Trajes
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Acessórios</a>
+                            <a class="dropdown-item" href="#">Calçados</a>
+                            <a class="dropdown-item" href="#">Roupas</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Móveis
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Cadeiras</a>
+                            <a class="dropdown-item" href="#">Mesas</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            + serviços
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Cabelereiro</a>
+                            <a class="dropdown-item" href="#">Manicure</a>
+                            <a class="dropdown-item" href="#">Maquiador</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Segurança</a>
+                            <a class="dropdown-item" href="#">Garçom</a>
+                            <a class="dropdown-item" href="#">Limpeza</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Equipamentos</a>
+                            <a class="dropdown-item" href="#">Organização</a>
+                        </div>
+                    </li>
+                </ul>
+                
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" id="bnt-cadastro">
+                    Cadastre-se
+                </button>
+            </div>
+
+        </nav>
+    </div>
+
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" id="bnt-cadastro">
+        + Anuncio
+    </button>
+          
+    <!-- Modal 
+    <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="customCheck1">
+        <label class="custom-control-label" for="customCheck1">Check this custom checkbox</label>
+    </div>
+
+    <div class="custom-control custom-radio">
+        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+        <label class="custom-control-label" for="customRadio1">Toggle this custom radio</label>
+    </div>
+    <div class="custom-control custom-radio">
+        <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+        <label class="custom-control-label" for="customRadio2">Or toggle this other custom radio</label>
+    </div>
+
+    custom-control-inline
+
+
+    <form>
+        <div class="form-group">
+            <label for="exampleFormControlFile1">Example file input</label>
+            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+        </div>
+    </form>
+
+    <div class="custom-file">
+        <input type="file" class="custom-file-input" id="customFile">
+        <label class="custom-file-label" for="customFile">Choose file</label>
+    </div>
+    -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">Anuncio</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <form action="">
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <label for="inputTitulo">Título</label>
+                            <input type="text" class="form-control" id="inputTitulo" placeholder="Digite ..">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="inputDesc">Descrição</label>
+                            <textarea class="form-control" id="inputDesc" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <p>Fotos</p>
+                    <div class="form-row">
+                        
+                        <div class="custom-file ">
+                            <input type="file" class="custom-file-input" id="customFile">
+                            <label class="custom-file-label" for="customFile">Add fotos</label>
+                        </div>
+                        <div id="serviços">
+                            <p>Qual é seu serviço?</p>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Bolos</button>
+                                    <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Confeitado</a>
+                                    <a class="dropdown-item" href="#"> Ornamentais</a>
+                                    <a class="dropdown-item" href="#"> Personalizados</a>
+                                    <a class="dropdown-item" href="#"> Simples</a>
+                                    <a class="dropdown-item" href="#"> Temático</a>
+                                </div>
+                                <input type="number" class="form-control" aria-label="Text input with dropdown button" placeholder="Preço R$ 0,00">
+                                <input type="number" class="form-control" aria-label="Text input with dropdown button" placeholder="Quatidade por pessoa">
+                            </div>
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Bebidas</button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Alcoolicas</a>
+                                    <a class="dropdown-item" href="#"> Drinks</a>
+                                    <a class="dropdown-item" href="#"> Refrigerantes</a>
+                                    <a class="dropdown-item" href="#"> Sucos</a>
+                                </div>
+                                <input type="number" class="form-control" aria-label="Text input with dropdown button" placeholder="Preço R$ 0,00">
+                                <input type="number" class="form-control" aria-label="Text input with dropdown button" placeholder="Quatidade por pessoa">
+                            </div>
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Doces</button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Personalizado</a>
+                                    <a class="dropdown-item" href="#"> Simpless</a>
+                                    <a class="dropdown-item" href="#"> Tacho (Algodão doce ou churros)</a>
+                                    
+                                </div>
+                                <input type="number" class="form-control" aria-label="Text input with dropdown button" placeholder="Preço R$ 0,00">
+                                <input type="number" class="form-control" aria-label="Text input with dropdown button" placeholder="Quatidade por pessoa">
+                            </div>
+                        </div>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Salgados</button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Batata Frita</a>
+                                        <a class="dropdown-item" href="#"> Forno</a>
+                                        <a class="dropdown-item" href="#"> Frito</a>
+                                        <a class="dropdown-item" href="#"> Misto</a>
+                                        <a class="dropdown-item" href="#"> Pipoca</a>
+                                        <a class="dropdown-item" href="#"> Simples</a>
+                                    </div>
+                                    <input type="number" class="form-control" aria-label="Text input with dropdown button" placeholder="Preço R$ 0,00">
+                                    <input type="number" class="form-control" aria-label="Text input with dropdown button" placeholder="Quatidade por pessoa">
+                                </div>
+                            </div>
+                       
+
+                        <div class="form-group">
+                            <div>
+                                <div class="custom-control custom-control-inline custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                    <label class="custom-control-label" for="customCheck1">Comes e bebes</label>
+                                </div>
+                                <div class="custom-control custom-control-inline custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                    <label class="custom-control-label" for="customCheck2">Decoração</label>
+                                </div>
+                                <div class="custom-control custom-control-inline custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck3">
+                                    <label class="custom-control-label" for="customCheck3">Atrações</label>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="custom-control custom-control-inline custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck4">
+                                    <label class="custom-control-label" for="customCheck4">Brinquedos</label>
+                                </div>
+                                <div class="custom-control custom-control-inline custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck5">
+                                    <label class="custom-control-label" for="customCheck5">Ambientes</label>
+                                </div>
+                                <div class="custom-control custom-control-inline custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck6">
+                                    <label class="custom-control-label" for="customCheck6">Audio visual</label>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="custom-control custom-control-inline custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck7">
+                                    <label class="custom-control-label" for="customCheck7">Trajes</label>
+                                </div>
+                                <div class="custom-control custom-control-inline custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck8">
+                                    <label class="custom-control-label" for="customCheck8">Móveis</label>
+                                </div>
+                                <div class="custom-control custom-control-inline custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck9">
+                                    <label class="custom-control-label" for="customCheck9">+ serviços</label>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <footer>
+        
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
