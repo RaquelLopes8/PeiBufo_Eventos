@@ -1,0 +1,57 @@
+
+.titulo{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.subtitulo{
+    font-size: 18px;
+}
+
+.nome{
+    font-size: 18px;
+    margin-top: 60px;
+    font-weight: bold;
+    color: white;
+}
+
+ul li span{
+    font-size: 12px;
+}
+ul li{
+    list-style-type: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ffde00;
+}
+
+.row{
+    background-color: #00a1b0;
+    padding: 5px;
+}
+
+.circulo{
+    width: 100px;
+    height: 100px;
+    border: 1px solid gray;
+    margin: 10px;
+    background-color: #aaa;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.circulo img{
+    position: absolute;
+    width: 100%;
+}
+
+.minhas-info{
+    font-size: 14px;
+}

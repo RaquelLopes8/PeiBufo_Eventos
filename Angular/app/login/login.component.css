@@ -1,0 +1,24 @@
+*{
+    font-size: 15px;
+}
+
+.row{
+    background-color: #feeeab;
+    margin-bottom: 20%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-warning{
+    width: 100%;
+}
+
+h2{
+    font-size: 20px;
+}
+
+.imagem{
+    width: 200px;
+    height: 100px;
+}

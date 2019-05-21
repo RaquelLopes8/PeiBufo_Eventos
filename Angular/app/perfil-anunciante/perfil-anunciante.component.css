@@ -1,0 +1,96 @@
+
+.titulo{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.subtitulo{
+    font-size: 18px;
+}
+
+.nome{
+    font-size: 18px;
+    margin: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+ul li span{
+    font-size: 12px;
+}
+ul li{
+    list-style-type: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ffde00;
+}
+
+.topo{
+    background-color: #00a1b0;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.circulo{
+    width: 100px;
+    height: 100px;
+    border: 1px solid gray;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.circulo img{
+    position: absolute;
+    width: 100%;
+}
+
+.minhas-info{
+    font-size: 14px;
+}
+
+.btn{
+    margin: 10px;
+}
+
+.mar{
+    margin: 10px;
+}
+
+.item{
+    background-color: #eeeeee;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px;
+    box-shadow: 3px 3px 10px rgb(167, 167, 167);
+}
+
+.item:hover{
+    background-color: #feeeab;
+    cursor: pointer;
+}
+
+.imagem{
+    margin-left: 0;
+}
+.imagem img{
+    margin: 10px;
+}
+
+.infoItem{
+    font-size: 14px;
+    margin: 10px;
+    position: relative;
+    margin-top: -100px;
+    margin-left: 130px;
+}
