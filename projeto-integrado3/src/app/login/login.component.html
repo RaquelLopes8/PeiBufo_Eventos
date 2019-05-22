@@ -1,24 +1,168 @@
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PeiBufo - Cadastro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="login.component.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <!---sm|-md|-lg|-xl-->
+  <div class="conteiner">
+      <nav class="navbar navbar-expand-xl navbar-dark" >
+          <a class="navbar-brand" href="#"><img src="../img/logo 1.png" alt="" height="60px" width="120px" ></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="#"> Início <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Comes e bebes
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Bolos</a>
+                          <a class="dropdown-item" href="#">Bebidas</a>
+                          <a class="dropdown-item" href="#">Buffet</a>
+                          <a class="dropdown-item" href="#">Doces</a>
+                          <a class="dropdown-item" href="#">Salgado</a>
+                      </div>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Decoração
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Ambiente</a>
+                          <a class="dropdown-item" href="#">Artesanato</a>
+                          <a class="dropdown-item" href="#">Mesas</a>
+                          <a class="dropdown-item" href="#">Papelaria</a>
+                      </div>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Atrações
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Entretenimento</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Musical</a>
+                      </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Brinquedos
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Cama Elástica ou Pula pula</a>
+                          <a class="dropdown-item" href="#">Carro Elétrico</a>
+                          <a class="dropdown-item" href="#">Castelo</a>
+                          <a class="dropdown-item" href="#">Piscina de bolinhas</a>
+                      </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Ambientes
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Auditório</a>
+                          <a class="dropdown-item" href="#">Buffet</a>
+                          <a class="dropdown-item" href="#">Casas</a>
+                          <a class="dropdown-item" href="#">Clubes</a>
+                          <a class="dropdown-item" href="#">Decks</a>
+                      </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Audio visual
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Fotógrafos</a>
+                          <a class="dropdown-item" href="#">Vídeos</a>
+                      </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Trajes
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Acessórios</a>
+                          <a class="dropdown-item" href="#">Calçados</a>
+                          <a class="dropdown-item" href="#">Roupas</a>
+                      </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Móveis
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Cadeiras</a>
+                          <a class="dropdown-item" href="#">Mesas</a>
+                      </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          + serviços
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Cabelereiro</a>
+                          <a class="dropdown-item" href="#">Manicure</a>
+                          <a class="dropdown-item" href="#">Maquiador</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Segurança</a>
+                          <a class="dropdown-item" href="#">Garçom</a>
+                          <a class="dropdown-item" href="#">Limpeza</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Equipamentos</a>
+                          <a class="dropdown-item" href="#">Organização</a>
+                      </div>
+                  </li>
+              </ul>
+              
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" id="bnt-cadastro">
+                  Login
+              </button>
+          </div>
+
+      </nav>
+  </div>
 
 
-<div class="container">
-  <div class="row">
-    <img class="imagem" src="https://i.imgur.com/kicUmKl.png">
-  </div>
-  <div class="form-group">
-    <h2>Faça o login para continuar</h2>
-    <hr>
-    <form action="">
-      <label>Email:</label>
-      <input type="text" class="form-control" placeholder="Digite seu email..."><br>
-      <label>Senha:</label>
-      <input type="password" class="form-control" placeholder="Digite sua senha..."><br>
-      <button type="submit" class="btn btn-warning">Entrar</button>
-      <label>Ainda não possui uma conta? <a href="">Registre-se aqui</a></label>
-    </form>
-  </div>
-  <div class="rodape">
+  <div class="container">
+    <div class="row">
+      <img class="imagem" src="../img/logo 2.png">
+    </div>
+    <div class="form-group">
+      <h2>Faça o login para continuar</h2>
+      <hr>
+      <form action="">
+        <label>Email:</label>
+        <input type="text" class="form-control" placeholder="Digite seu email..."><br>
+        <label>Senha:</label>
+        <input type="password" class="form-control" placeholder="Digite sua senha..."><br>
+        <button type="submit" class="btn btn-warning" id="bnt-login">Entrar</button>
+        <label>Ainda não possui uma conta? <a href="">Registre-se aqui</a></label>
+      </form>
+    </div>
+    <div class="rodape">
 
+    </div>
   </div>
-</div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
