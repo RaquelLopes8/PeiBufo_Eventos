@@ -1,3 +1,20 @@
+@font-face{
+    font-family: "OCRAEXT";
+    src: url("../fontes/OCRAEXT.TTF");
+}
+
+.conteiner nav{
+    background-color:rgb(31, 18, 2); 
+    color: rgb(224 ,209, 149);
+}
+
+#bnt-cadastro{
+    background-color: rgb(31, 18, 2);
+    cursor: pointer;
+    color: rgb(255, 238, 170);
+    border:rgb(255, 238, 170);
+}
+
 
 .titulo{
     font-size: 20px;

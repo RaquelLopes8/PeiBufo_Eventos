@@ -8,7 +8,7 @@
     color: rgb(224 ,209, 149);
 }
 
-#bnt-cadastro, #but-anuncio{
+#bnt-cadastro{
     background-color: rgb(31, 18, 2);
     cursor: pointer;
     color: rgb(255, 238, 170);
@@ -27,15 +27,8 @@
     font-family: "OCRAEXT";
     font-size: 20px;
 }
-#form div input, #form div select, form div #inputTitulo, form div #inputDesc, #servicos div button{
+#form div input, #form div select{
     border: 1px solid rgb(31, 18, 2);
 }
 
-/*anuncio*/
 
-.modal-content .modal-title, .modal-content{
-    color:rgb(31, 18, 2);
-}
-#servicos p{
-    padding-top: 10px;
-}

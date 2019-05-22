@@ -1,3 +1,20 @@
+@font-face{
+    font-family: "OCRAEXT";
+    src: url("../fontes/OCRAEXT.TTF");
+}
+
+.conteiner nav{
+    background-color:rgb(31, 18, 2); 
+    color: rgb(224 ,209, 149);
+}
+
+#bnt-cadastro, #bnt-addAnuncio{
+    background-color: rgb(31, 18, 2);
+    cursor: pointer;
+    color: rgb(255, 238, 170);
+    border:rgb(255, 238, 170);
+}
+
 
 .titulo{
     font-size: 20px;
@@ -93,4 +110,20 @@ a:hover{
     position: relative;
     margin-top: -100px;
     margin-left: 130px;
+}
+/*anuncio*/
+form div #inputTitulo, form div #inputDesc, #servicos div button{
+    border: 1px solid rgb(31, 18, 2);
+}
+.modal-content .modal-title, .modal-content{
+    color:rgb(31, 18, 2);
+}
+#servicos p{
+    padding-top: 10px;
+}
+#but-anuncio{
+    background-color: rgb(31, 18, 2);
+    cursor: pointer;
+    color: rgb(255, 238, 170);
+    border:rgb(255, 238, 170);
 }
